@@ -70,9 +70,9 @@
   // Add additional JS files here.
   function theme_js() {
 
-    wp_register_script('main_js', get_template_directory_uri() . 'js/app.js', array('jquery'));
+    wp_enqueue_script('main_js', get_template_directory_uri() . '/js/app.js', array('jquery'));
   }
 
-  add_action('wp_enqueque_scripts', 'theme_js');
+  add_action('init', 'theme_js');
 
 ?>
