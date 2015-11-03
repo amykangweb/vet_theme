@@ -1,0 +1,31 @@
+/*
+Theme Name: Veterinary Office
+Theme URI: http://amy-kang.com
+Author: Amy Kang
+Author URI: http://www.amykang.net/
+Description: Responsive, clean, simple, veterinary office theme.
+Version: 1.0
+*/
+
+@mixin container {
+  background: red;
+  width: 980px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+ul li {
+  list-style: none;
+}
+
+.nav {
+  @include container;
+}
+
+.container {
+  @include container;
+}
+
+footer {
+  @include container;
+}
