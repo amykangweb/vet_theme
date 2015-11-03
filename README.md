@@ -2,9 +2,9 @@
 
 <h2>Information</h2>
 
-By - Amy Kang
-Platform - WordPress
-Technologies Used - jQuery, Sass
+<strong>By</strong> Amy Kang<br>
+<strong>Platform</strong> WordPress<br>
+<strong>Technologies Used</strong> jQuery, Sass
 
 <h2>Description</h2>
 
