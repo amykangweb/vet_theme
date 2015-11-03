@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
   <div class="jumbotron">
-    This is where the billboard goes.
+    <img src="<?php header_image(); ?>" alt="Billboard Image" />
   </div>
 
   <div class="container">
